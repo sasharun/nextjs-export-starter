@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Reference schema stub copied into an external Sanity Studio project (also excluded in tsconfig.json)
+    "sanity/**",
   ]),
 ]);
 
